@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+  <body>
+    <title>Conectando Mais Páginas</title>
+    <h1>Conectando Mais Páginas</h1>
+    <p>
+      O objetivo desse exercício é mostrar como são feitas as conexões entre diferentes páginas de um site,
+      Além disso, vamos mostrar como são feitos os links para páginas de websites completamente diferentes.
+    </p>
+    <br>
+    <hr>
+    <h2>Link para uma página de um website externo (Google, YouTube, etc...)</h2>
+    <p>
+      Em um website, normalmente encontramos botões que nos direcionam para outras páginas. Iremos entender como essa
+      navegação é feita.
+    </p>
+    <p>
+      Como essa é uma ação extremamente comum nos sites, o HTML possui uma tag específica para isso. a tag 'a'.
+    </p>
+    <p>
+      Podemos, por exemplo, criar um link que nos leva para a página inicial deste repositório. Veja o exemplo abaixo:
+    </p>
+    <a href="https://github.com/eduardoparducci/web-dev-tutorial" target="_blank">Visite o repositório deste projeto!</a>
+    <p>
+      Note que dentro da tag 'a', temos dois parâmetros. <b>href</b> e <b>target</b>. Cada um deles tem uma função.
+      <br>
+      <br>
+      <b>href: </b> Contém o URL (endereço) da a página externa.
+      <br>
+      <br>
+      <b>target: </b> Descreve a maneira como essa página será aberta. Neste exemplo, definimos a página para ser aberta
+      em uma nova guia do seu navegador. Tente remover completamente o parâmetro <b>target</b> do link acima e veja o que
+      acontece.
+    </p>
+    <br>
+    <hr>    
+    <h2>Link para uma página dentro do mesmo website</h2>
+    <p>
+      Muitas vezes, navegamos para páginas que estão dentro do mesmo website. Iremos agora navegar para uma segunda
+      página. Dentro desta mesma pasta, existe um arquivo chamado 'secondary.html'. Iremos criar um link de navegação
+      para ela <a href="./secondary.html">Aqui</a>
+    </p>
+    <p>
+      O <b>href</b> do último link possui um '.' que serve para referenciar a localização do arquivo que estamos
+      tentando abrir. O ponto representa a pasta atual, neste caso a pasta '02-Conectando-mais-páginas'. Conforme
+      o site toma corpo e vai crescendo, surge a necessidade de agruparmos algumas páginas em pastas diferentes. Para
+      referenciar outras pastas, podemos utilizar '..' que indica que estamos retornando a pasta anterior, neste caso
+      a pasta 'web-dev-tutorial'. 
+    </p>
+    <br>
+    <hr>
+    <h3>Exercício</h3>
+    Utilizando o mesmo conjunto de tags apresentados nesta página. Construa um link com o texto "Anterior" que nos leva
+    para a primeira página deste tutorial. Além disso, edite o arquivo 'main.html' do primeiro exercício e construa, no
+    final da página, um link com o texto 'Próximo' que navega até a página atual (Conectando Mais Páginas). Crie também
+    outro link com o título 'Ir para o Google' que nos leva para a página inicial do Google em outra guia do navegador.
+    <br>
+    Dica:
+    <br>
+    O href para uma página dentro da pasta 01-Primeiro-website a seguir está incompleto mas deve servir como guia:<br>
+    href="../01-Primeiro-website/"
+    <br>
+    <hr>
+    <h4>Coloque seu código aqui</h4>
+  </body>
+</html>
