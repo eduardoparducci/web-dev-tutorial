@@ -1,3 +1,15 @@
+body {
+    margin: 0 200px;
+    background: antiquewhite;
+}
+h1, h3 {
+   color: burlywood;
+}
 h1{
-	color: red;
+    text-align: center;
+    margin-bottom: 100px;
+}
+p, li {
+    color: grey;
+    text-align: justify;
 }

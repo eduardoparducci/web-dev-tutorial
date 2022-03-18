@@ -18,18 +18,17 @@ páginas disponíveis na internet
 
 Aprendendo tabelas, listas ordenadas e não ordenadas
 
-## 04-Noções-de-posicionamento
-> Entendendo como é feita a divisao de espacos na página
-
-
-Aprendendo divs, cabecalho, rodape e barras de navegação laterais
-
-## 05-Imagens-e-estilo
+## 04-Imagens-e-estilo
 > Adicionando imagens deixando o site mais apresentável
 
 
 Aprenda a criar um card com informações dispostas de uma forma agradavel de ler.
 Adicionando hovers nos diferentes espaços da página
+
+## 05-Noções-de-posicionamento
+> Entendendo como é feita a divisao de espacos na página
+
+Aprendendo divs, cabecalho, rodape e barras de navegação laterais
 
 ## 06-Reutilizacao-de-codigo
 > Boas práticas de padronizacao de estilo no site completo.
