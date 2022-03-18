@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+  
+  <head>
+    <link rel="stylesheet" href="mystylev2.css">
+    <script src="myscriptv2.js"></script>
+  </head>
+  
+  <body>
+    <title>Eduardo Parducci - Portifolio</title>
+
+
+    <!-- Conteudo principal da pagina -->
+    <div class="main">
+      <div class="header">
+        <span class="title">Eduardo Parducci</span>
+      </div>
+
+      <!-- Main content wrapper -->
+      <div class="content-container">
+        <!-- Left side content -->
+        <div class="content-left">
+
+          <div class="subtitle">
+            <span>Let's explore the world together</span>
+          </div>
+
+          <ul>
+            <li id="menu-education" onclick="setActiveSection('education')">Education</li>
+            <li id="menu-professional" onclick="setActiveSection('professional')">Professional Experience</li>
+            <li id="menu-links" onclick="setActiveSection('links')">Contact</li>
+          </ul>
+        </div>
+
+        <!-- Right side content -->
+        <div class="content-right">
+          <div class="vertical-spacer" style="height: 4rem;"></div>
+
+          <!-- Education Text -->
+          <div id="text-education" class="hidden">
+            <ul>
+              <li>
+                <div class="card">
+                  <span class="info-timeframe">3/2016 – now</span>
+                  <div class="logo">
+                    <img src="assets/unicamp.jpg">
+                  </div>
+                  <span class="info-title">Computer Engineering</span><br>
+                  <span class="info-location">University of Campinas - Brazil</span><br>
+                  <span class="info-observations">Emphasis on Industrial Systems and Processes</span>
+                </div>
+              </li>
+              <li>
+                <div class="card">
+                  <span class="info-timeframe">4/2020 – 3/2021</span>
+                  <div class="logo">
+                    <img src="assets/uds.png">
+                  </div>
+                  <span class="info-title">Computer Science</span><br>
+                  <span class="info-location">Saarland University – Germany</span><br>
+                  <span class="info-observations">Academic exchange student</span>
+                </div>
+              </li>                
+              <li>
+                <div class="card">
+                  <span class="info-timeframe">8/2014 – 7/2015</span>
+                  <div class="logo">
+                    <img src="assets/fatec.png">
+                  </div>
+                  <span class="info-title">Analysis and Software Development</span><br>
+                  <span class="info-location">FATEC José Crespo Gonzales, Brazil</span><br>
+                  <span class="info-observations">No Degree. Interrupted study</span>
+                </div>
+              </li>
+              <li>
+                <div class="card">
+                  <span class="info-timeframe">06/2013 – 06/2015</span>
+                  <div class="logo">
+                    <img src="assets/senai.jpg">
+                  </div>
+                  <span class="info-title">Technician in Mechatronics</span><br>
+                  <span class="info-location">SENAI Gaspar Ricardo Junior, Brazil</span><br>
+                  <span class="info-observations">Participation in national robotics competition</span>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Professional Experience Text -->
+          <div id="text-professional" class="hidden">
+            <ul>
+              <li>
+                <div class="card">
+                  <span class="info-timeframe">10/2020 – now</span>
+                  <div class="logo">
+                    <img src="assets/kiss.jpg">
+                  </div>
+                  <span class="info-title">Full-stack Software Developer</span><br>
+                  <span class="info-location">Keep It Simple Solutions</span><br>
+                  <span class="info-observations">
+                    Microservices development using Java Springboot and Oracle Database and
+                    Front end web development using AngularJS
+                  </span>
+                </div>
+              </li>
+              <li>
+                <div class="card">
+                  <span class="info-timeframe">8/2020 – 10/2021</span>
+                  <div class="logo">
+                    <img src="assets/pismo.png">
+                  </div>
+                  <span class="info-title">Front End Web Development</span><br>
+                  <span class="info-location">PISMO</span><br>
+                  <span class="info-observations">
+                    Front end web development using React, software
+                    development and performing unit and integration testing
+                  </span>
+                </div>
+              </li>             
+              <li>
+                <div class="card">
+                  <span class="info-timeframe">6/2020 – 5/2021</span>
+                  <div class="logo">
+                    <img src="assets/dfki.jpg">
+                  </div>
+                  <span class="info-title">Full-stack Web Development</span><br>
+                  <span class="info-location">German Research Centre for Artificial Intelligence</span><br>
+                  <span class="info-observations">
+                    Responsible for implementing IT project strategies and task management
+                    Front end web development using VueJS and Back end development using Java and OrientDB
+                  </span>
+                </div>
+              </li>
+              <li>
+                <div class="card">
+                  <span class="info-timeframe">12/2018 – 03/2020</span>
+                  <div class="logo">
+                    <img src="assets/csc.png">
+                  </div>
+                  <span class="info-title">Full-stack Web Development</span><br>
+                  <span class="info-location">Curtir Sua Cidade – LLC</span><br>
+                  <span class="info-observations">
+                    Responsible for creating, improving and developing IT
+                    project strategies and task management
+                    Front end web development using Angular and Node JS
+                    Back end development using Python and Mongo
+                    Database
+                  </span>
+                </div>
+              </li>
+            </ul>
+          </div>
+          
+          <!-- Contact information Text -->          
+          <div id="text-links" class="hidden">
+            
+            <p>
+              <b>Contacts</b> Here, there will be a text regarding the selection you made in the right side menu. I'm trying to write
+              a text long enough to see the spacing in the screen, I don't want the text to overlap with the astronaut.
+            </p>
+          </div>          
+        </div>  
+      </div>
+    </div>
+    
+  </body>
+</html>
